@@ -1,0 +1,290 @@
+NOME 
+*
+Sua resposta
+TURMA
+*
+3A1
+3B1
+3C1
+3A2
+3C2
+1. Qual é a função principal de `st.title()`?
+*
+1 ponto
+Exibir um título principal na página
+Criar uma tabela
+Abrir um formulário
+Salvar dados em CSV
+2. Qual função exibe texto em formato de cabeçalho de seção?
+*
+1 ponto
+st.caption()
+st.header()
+st.code()
+st.metric()
+3. Qual função permite exibir texto com formatação Markdown?
+*
+1 ponto
+st.markdown()
+st.number_input()
+st.file_uploader()
+st.stop()
+4. Qual função apresenta um botão clicável?
+*
+1 ponto
+st.radio()
+st.button()
+st.selectbox()
+st.checkbox()
+5. Qual função permite ao usuário selecionar apenas uma opção de uma lista suspensa?
+*
+1 ponto
+st.multiselect()
+st.selectbox()
+st.dataframe()
+st.columns()
+6. Qual função permite selecionar várias opções de uma lista?
+*
+1 ponto
+st.multiselect()
+st.text_input()
+st.toggle()
+st.date_input()
+7. Qual função cria opções de seleção com botões de rádio?
+*
+1 ponto
+st.radio()
+st.file_uploader()
+st.download_button()
+st.write()
+8. Qual função cria uma caixa de seleção marcada ou desmarcada?
+*
+1 ponto
+st.checkbox()
+st.slider()
+st.form()
+st.cache_data()
+9. Qual função recebe texto digitado em uma única linha?
+*
+1 ponto
+st.text_area()
+st.text_input()
+st.code()
+st.chat_message()
+10. Qual função recebe texto em várias linhas?
+*
+1 ponto
+st.text_area()
+st.text_input()
+st.caption()
+st.link_button()
+11. Qual função recebe um valor numérico do usuário?
+*
+1 ponto
+st.number_input()
+st.json()
+st.table()
+st.toast()
+12. Qual função cria um controle deslizante para selecionar um valor ou intervalo?
+*
+1 ponto
+st.slider()
+st.status()
+st.spinner()
+st.divider()
+13. Qual função permite escolher uma data?
+*
+1 ponto
+st.time_input()
+st.date_input()
+st.datetime()
+st.calendar()
+14. Qual função permite escolher um horário?
+*
+1 ponto
+st.time_input()
+st.date_input()
+st.clock()
+st.metric()
+15. Qual função permite enviar um arquivo para o aplicativo?
+*
+1 ponto
+st.download_button()
+st.file_uploader()
+st.image()
+st.write()
+16. Qual função permite ao usuário baixar um arquivo?
+*
+1 ponto
+st.download_button()
+st.file_uploader()
+st.button()
+st.link_button()
+17. Qual função exibe uma imagem?
+*
+1 ponto
+st.image()
+st.pyplot()
+st.audio_input()
+st.data_editor()
+18. Qual função exibe um dataframe de forma interativa?
+*
+1 ponto
+st.dataframe()
+st.header()
+st.code()
+st.toast()
+19. Qual função exibe uma tabela estática simples?
+*
+1 ponto
+st.table()
+st.columns()
+st.form()
+st.popover()
+20. Qual função mostra código com realce de sintaxe?
+*
+1 ponto
+st.code()
+st.text_input()
+st.badge()
+st.metric()
+21. Qual função cria um separador horizontal na página?
+*
+1 ponto
+st.divider()
+st.columns()
+st.container()
+st.empty()
+22. Qual função apresenta um valor numérico em destaque, geralmente com comparação?
+*
+1 ponto
+st.metric()
+st.caption()
+st.radio()
+st.form()
+23. Qual função organiza elementos em colunas?
+*
+1 ponto
+st.columns()
+st.tabs()
+st.rows()
+st.grid()
+24. Qual função cria abas para organizar conteúdo em seções?
+*
+1 ponto
+st.tabs()
+st.sidebar()
+st.dialog()
+st.form()
+25. Qual função agrupa widgets para enviar seus valores juntos ao pressionar enviar?
+*
+1 ponto
+st.form()
+st.container()
+st.expander()
+st.empty()
+26. Qual botão deve ser usado dentro de um `st.form` para enviar os dados?
+*
+1 ponto
+st.button()
+st.form_submit_button()
+st.download_button()
+st.page_link()
+27. Qual função exibe conteúdo em uma área expansível?
+*
+1 ponto
+st.expander()
+st.divider()
+st.metric()
+st.stop()
+28. Qual função cria um espaço reservado que pode ser atualizado posteriormente?
+*
+1 ponto
+st.empty()
+st.title()
+st.radio()
+st.cache_data()
+29. Qual função mostra uma mensagem de sucesso?
+*
+1 ponto
+st.success()
+st.error()
+st.exception()
+st.stop()
+30. Qual função mostra uma mensagem de erro?
+*
+1 ponto
+st.warning()
+st.info()
+st.error()
+st.success()
+31. Qual função mostra uma mensagem de aviso?
+*
+1 ponto
+st.warning()
+st.success()
+st.code()
+st.json()
+32. Qual função exibe uma mensagem informativa?
+*
+1 ponto
+st.info()
+st.error()
+st.stop()
+st.rerun()
+33. Qual função exibe um indicador de progresso?
+*
+1 ponto
+st.progress()
+st.spinner()
+st.status()
+st.metric()
+34. Qual função mostra uma animação de espera enquanto um bloco é executado?
+*
+1 ponto
+st.spinner()
+st.progress()
+st.toast()
+st.balloons()
+35. Qual objeto permite guardar valores entre reexecuções da aplicação na mesma sessão?
+*
+1 ponto
+st.session_state
+st.secrets
+st.cache_data
+st.query_params
+36. Qual decorador é indicado para armazenar em cache resultados de funções que retornam dados?
+*
+1 ponto
+@st.cache_data
+@st.cache_resource
+@st.form
+@st.dialog
+37. Qual decorador é indicado para armazenar em cache recursos como conexões ou modelos?
+*
+1 ponto
+@st.cache_data
+@st.cache_resource
+@st.fragment
+@st.container
+38. Qual função interrompe a execução do script naquele ponto?
+*
+1 ponto
+st.stop()
+st.rerun()
+st.empty()
+st.warning()
+39. Qual função força a aplicação Streamlit a executar novamente o script?
+*
+1 ponto
+st.stop()
+st.rerun()
+st.cache_data()
+st.write()
+40. Qual função permite acessar e definir parâmetros de consulta na URL?
+*
+1 ponto
+st.query_params
+st.session_state
+st.secrets
+st.context

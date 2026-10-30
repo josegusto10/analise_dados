@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+seaborn
+openpyxl
+xlrd==1.2.0
+streamlit
+plotly
+nbclient
+nbformat
+ipykernel
